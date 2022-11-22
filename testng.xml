@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/michael/IdeaProjects/RestAssureLearning">
+        <classes>
+            <class name="API.ReqresTest">
+                <methods>
+                    <include name="CheckAvatarAndIdTest"/>
+                    <include name="CheckResponseTime"/>
+                    <include name="SuccessRegTest"/>
+                    <include name="unsuccessUserReg"/>
+                    <include name="sortedYearsTest"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="API_2.Tests">
+                <methods>
+                    <include name="GetMethod"/>
+                    <include name="getReqNOPojo"/>
+                    <include name="getListResours"/>
+                    <include name="createUser"/>
+                    <include name="loginSaccess"/>
+                    <include name="Err404"/>
+                    <include name="MethodPut"/>
+                    <include name="Delete"/>
+                    <include name="GetDeleyed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
